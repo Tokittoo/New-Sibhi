@@ -3,7 +3,6 @@ import React from 'react'
 import { Socials } from './ui/socials'
 import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa6'
 import { IconBrandX, IconMail } from '@tabler/icons-react'
-import { SiPeerlist } from 'react-icons/si'
 import { Highlight } from './ui/highlight'
 
 const socials = [

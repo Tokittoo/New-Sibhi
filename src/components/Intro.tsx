@@ -5,7 +5,6 @@ import { motion } from 'motion/react'
 import { IconBrandX } from '@tabler/icons-react'
 import { Socials } from './ui/socials'
 import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa6'
-import { SiPeerlist } from 'react-icons/si'
 import { Highlight } from './ui/highlight'
 import { childVariant } from './ui/animation-wrapper'
 

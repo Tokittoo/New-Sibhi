@@ -63,16 +63,6 @@ const NodeJS = {
   logo: <IconBrandNodejs size={18} />
 }
 
-const JavaScript = {
-  name: 'JavaScript',
-  logo: <IconBrandJavascript size={18} />
-}
-
-const MongoDB = {
-  name: 'MongoDB',
-  logo: <IconBrandMongodb size={18} />
-}
-
 const Java = {
   name: 'Java',
   logo: <Image src={"/skills/java.svg"} height={20} width={20} alt='Java Icon' style={{ filter: 'brightness(1000%) saturate(0)', WebkitFilter: 'brightness(1000%) saturate(0)' }} />
