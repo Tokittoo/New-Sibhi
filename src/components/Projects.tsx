@@ -2,7 +2,7 @@
 
 import Card from './Card'
 import Link from 'next/link'
-import { IconBrandFramerMotion, IconBrandJavascript, IconBrandMongodb, IconBrandNextjs, IconBrandNodejs, IconBrandReact, IconBrandTailwind, IconBrandTypescript, IconChevronDown, IconChevronRight } from '@tabler/icons-react'
+import { IconBrandFramerMotion,  IconBrandNextjs, IconBrandNodejs, IconBrandReact, IconBrandTailwind, IconBrandTypescript, IconChevronDown, IconChevronRight } from '@tabler/icons-react'
 import { motion } from 'motion/react'
 import { Button } from './ui/button'
 import { childVariant } from './ui/animation-wrapper'
@@ -38,10 +38,6 @@ const NextJS = {
   logo: <IconBrandNextjs size={18} />
 }
 
-const ReactTech = {
-  name: 'React',
-  logo: <IconBrandReact size={18} />
-}
 
 const Tailwind = {
   name: 'Tailwind CSS',
@@ -63,10 +59,6 @@ const NodeJS = {
   logo: <IconBrandNodejs size={18} />
 }
 
-const Java = {
-  name: 'Java',
-  logo: <Image src={"/skills/java.svg"} height={20} width={20} alt='Java Icon' style={{ filter: 'brightness(1000%) saturate(0)', WebkitFilter: 'brightness(1000%) saturate(0)' }} />
-}
 
 const projects: Project[] = [
   {
