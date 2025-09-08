@@ -2,11 +2,10 @@
 
 import Card from './Card'
 import Link from 'next/link'
-import { IconBrandFramerMotion,  IconBrandNextjs, IconBrandNodejs, IconBrandReact, IconBrandTailwind, IconBrandTypescript, IconChevronDown, IconChevronRight } from '@tabler/icons-react'
+import { IconBrandFramerMotion,  IconBrandNextjs, IconBrandNodejs, IconBrandTailwind, IconBrandTypescript, IconChevronDown, IconChevronRight } from '@tabler/icons-react'
 import { motion } from 'motion/react'
 import { Button } from './ui/button'
 import { childVariant } from './ui/animation-wrapper'
-import Image from 'next/image'
 import React, { useState } from 'react'
 
 export type Project = {
