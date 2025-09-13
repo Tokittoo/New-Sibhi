@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import { AnimationWrapper, childVariant } from './ui/animation-wrapper';
 import * as motion from 'motion/react-client';
 
 type Company = {
@@ -61,3 +60,4 @@ const CompanyCard = ({ company }: { company: Company }) => (
 );
 
 export default HallOfFame;
+
