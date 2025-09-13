@@ -9,22 +9,22 @@ type Skill = {
 }
 
 const languages: Skill[] = [
-  { name: "JavaScript", icon: "/skills/javascript.svg" },
-  { name: "Java", icon: "/skills/java.svg" },
-  { name: "Python", icon: "/skills/Python.svg" },
-  { name: "C", icon: "/skills/C.svg" },
-  { name: "C++", icon: "/skills/cpp.svg" },
-  { name: "PHP", icon: "/skills/php.svg" }
+  { name: "C/C++", icon: "/skills/C.svg" },
+  { name: "Python", icon: "/skills/python.svg" },
+  { name: "PHP", icon: "/skills/Python.svg" },
+  { name: "Java", icon: "/skills/C.svg" },
+  { name: "Rust", icon: "/skills/Rust.svg" },
+  { name: "Solidity", icon: "/skills/pngwing.com.svg" }
 ];
 
 const frameworks: Skill[] = [
-  { name: "Application Security", icon: "/skills/Application_Security.svg" },
-  { name: "Cloud Security", icon: "/skills/Cloud_Security.svg" },
-  { name: "Web3 Security", icon: "/skills/web_3.svg" },
-  { name: "RF Security", icon: "/skills/rfid.svg" },
-  { name: "Application Development", icon: "/skills/Application_Development.svg" },
-  { name: "3D Art & Animation", icon: "/skills/3D.svg" },
-  { name: "Graphic Design", icon: "/skills/Graphics_Design.svg" },
+  { name: "Application Security", icon: "/skills/security.svg" },
+  { name: "Cloud Security", icon: "/skills/cloud-security.svg" },
+  { name: "Web3 Security", icon: "/skills/ethereum.svg" },
+  { name: "RF Security", icon: "/skills/rf.svg" },
+  { name: "Application Development", icon: "/skills/code.svg" },
+  { name: "3D Art & Animation", icon: "/skills/dimensions.svg" },
+  { name: "Graphic Design", icon: "/skills/art-studies.svg" },
 ];
 
 
