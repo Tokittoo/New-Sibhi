@@ -62,7 +62,7 @@ const NodeJS = {
 const projects: Project[] = [
   {
     title: 'Penquin',
-    description: "Developed a bug bounty toolkit designed to streamline the hunting process. It includes pre-configured commands, optimized recon and exploitation workflows, and curated resources, allowing more focus on discovering vulnerabilities rather than setup.",
+    description: "A compact bug-bounty toolkit with pre-configured commands, optimized recon/exploitation workflows, and curated resources to remove setup friction.",
     image: '/projects/Penquin.png',
     liveLink: 'https://penquin.vercel.app',
     sourceLink: 'https://github.com/xibhi/penquin',
