@@ -4,15 +4,15 @@ import React from 'react'
 import { motion } from 'motion/react'
 import { IconBrandX } from '@tabler/icons-react'
 import { Socials } from './ui/socials'
-import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa6'
+import { FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa6'
 import { Highlight } from './ui/highlight'
 import { childVariant } from './ui/animation-wrapper'
 
 const socials = [
   {
-    name: 'GitHub',
-    link: 'https://github.com/xibhi',
-    icon: FaGithub
+    name: 'Instagram',
+    link: 'https://www.instagram.com/_xibhi_',
+    icon: FaInstagram
   },
   {
     name: 'X',
@@ -20,14 +20,14 @@ const socials = [
     icon: IconBrandX
   },
   {
-    name: 'Telegram',
-    link: 'https://t.me/XIBHl',
-    icon: FaTelegram
-  },
-  {
     name: 'Linkedin',
     link: 'https://www.linkedin.com/in/sibhibalamurugan',
     icon: FaLinkedin
+  },
+  {
+    name: 'GitHub',
+    link: 'https://github.com/xibhi',
+    icon: FaGithub
   }
 ]
 
@@ -51,7 +51,7 @@ const Intro = () => {
           <motion.h1 variants={childVariant} className='text-4xl md:text-5xl font-sans font-bold tracking-tight'>
             Sibhi
           </motion.h1>
-          <motion.p variants={childVariant} className='text-muted-foreground text-sm'>Someone who loves building cool stuffs and Anime.</motion.p>
+          <motion.p variants={childVariant} className='text-muted-foreground text-sm'>Tech meets creativity — that’s where I live.</motion.p>
           <motion.div variants={childVariant}><Socials socials={socials} /></motion.div>
         </div>
       </div>
@@ -63,7 +63,7 @@ const Intro = () => {
 const AboutMe = () => (
   <div className='text-muted-foreground text-sm my-4 flex flex-col gap-2 text-justify'>
     <motion.p variants={childVariant}>
-      Hey! I&apos;m <Highlight>Sibhi</Highlight>, Started programming at the age of <Highlight>13</Highlight>, I got a keen interest towards <Highlight>Cyber Security</Highlight> and have explored multiple dimensions of it. I progressively worked on multiple technologies ranging from <Highlight>software to security</Highlight>, which gave me a brief exposure towards the industry. You can contact me for a coffee or to get your idea into code or to consult for your <Highlight>software, security needs</Highlight>.
+    Hey, I’m <Highlight>Sibhi</Highlight>. Started programming at the age of 13, I got a keen interest towards <Highlight>Cyber Security</Highlight> and have explored multiple dimensions of it. I progressively worked on multiple technologies ranging from <Highlight>software to security</Highlight>, which gave me a brief exposure towards the industry. Whether it’s turning ideas into reality or consulting on software and security solutions, I’m always up for creating something impactful.
     </motion.p>
   </div>
 )

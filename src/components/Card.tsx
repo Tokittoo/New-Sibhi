@@ -46,7 +46,7 @@ const Card = ({ project }: { project: Project | UpcomingProject }) => {
           <div className='flex gap-2 h-max'>
             {
               project.liveLink && (
-                <Button size={'small'} asChild className='text-xs group/button'>
+                <Button variant={'outline'} size={'small'} asChild className='text-xs group/button border-border hover:bg-accent hover:text-accent-foreground'>
                   <Link href={project.liveLink} target='_blank'>
                     <IconExternalLink size={14} className='group-hover/button:-rotate-12 rotate-0 group-hover/button:-translate-[2px] transition-transform duration-300' />
                     Live
@@ -56,7 +56,7 @@ const Card = ({ project }: { project: Project | UpcomingProject }) => {
             }
             {
               project.sourceLink && (
-                <Button size={'small'} asChild className='text-xs group/button'>
+                <Button variant={'outline'} size={'small'} asChild className='text-xs group/button border-border hover:bg-accent hover:text-accent-foreground'>
                   <Link href={project.sourceLink} target='_blank'>
                     <FaGithub size={14} className='group-hover/button:-rotate-12 rotate-0 group-hover/button:-translate-[2px] transition-transform duration-300' />
                     Source

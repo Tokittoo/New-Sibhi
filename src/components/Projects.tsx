@@ -62,7 +62,7 @@ const NodeJS = {
 const projects: Project[] = [
   {
     title: 'Penquin',
-    description: "A collaborative project with Sibhi focused on developing a high-impact toolkit for advanced vulnerability discovery.",
+    description: "Developed a bug bounty toolkit designed to streamline the hunting process. It includes pre-configured commands, optimized recon and exploitation workflows, and curated resources, allowing more focus on discovering vulnerabilities rather than setup.",
     image: '/projects/Penquin.png',
     liveLink: 'https://penquin.vercel.app',
     sourceLink: 'https://github.com/xibhi/penquin',
