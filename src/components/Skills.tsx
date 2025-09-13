@@ -73,4 +73,3 @@ const Tag = ({ tag }: { tag: Skill }) => (
 )
 
 export default Skills
-

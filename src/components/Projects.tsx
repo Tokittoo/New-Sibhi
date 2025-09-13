@@ -76,20 +76,6 @@ const projects: Project[] = [
   }
 ]
 
-const upcomingProjects: UpcomingProject[] = [
-  {
-    title: 'Higher Secondary - Computer Science',
-    description: "In a schooling environment where freedom and extra curricular is considered as equal as curricular and co-curricular activities, I was able to understand life.",
-    tags: [
-    ]
-  },
-  {
-    title: 'Hustling',
-    description: "Hustling is the best form of education. Tapping into opportunities and exploring them and learning what is required to tap that opportunity and make it successful is all I do, 24/7. Learning, education and innovation goes hand in hand.",
-    tags: [
-    ]
-  }
-]
 
 function Projects() {
   const [showAll, setShowAll] = useState(false)
@@ -139,16 +125,6 @@ function Projects() {
         </motion.div>
       )}
 
-      <motion.h1 variants={childVariant} className='text-4xl ml-2 my-8 font-bold font-sans tracking-tight max-md:text-center text-balance'>Education</motion.h1>
-      <div className='grid md:grid-cols-2 gap-4 w-full'>
-        {
-          upcomingProjects.map(project => (
-            <motion.div variants={childVariant} key={project.title}>
-              <Card project={project} />
-            </motion.div>
-          ))
-        }
-      </div>
     </div>
   )
 }
