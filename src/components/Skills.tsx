@@ -11,7 +11,7 @@ type Skill = {
 const languages: Skill[] = [
   { name: "C/C++", icon: "/skills/C.svg" },
   { name: "Python", icon: "/skills/python.svg" },
-  { name: "PHP", icon: "/skills/Python.svg" },
+  { name: "PHP", icon: "/skills/php.svg" },
   { name: "Java", icon: "/skills/C.svg" },
   { name: "Rust", icon: "/skills/Rust.svg" },
   { name: "Solidity", icon: "/skills/pngwing.com.svg" }
@@ -73,3 +73,4 @@ const Tag = ({ tag }: { tag: Skill }) => (
 )
 
 export default Skills
+
