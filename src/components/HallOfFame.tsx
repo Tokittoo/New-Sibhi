@@ -48,13 +48,13 @@ const HallOfFame = () => {
 
 const CompanyCard = ({ company }: { company: Company }) => (
   <div className='flex-shrink-0 flex flex-col items-center justify-center group'>
-    <div className='w-16 h-16 md:w-20 md:h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110'>
+    <div className='w-12 h-12 md:w-20 md:h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-80'>
       <Image
         src={company.logo}
         alt={company.name}
         width={64}
         height={64}
-        className='w-16 h-16 md:w-20 md:h-20 object-contain'
+        className='w-20 h-20 md:w-18 md:h-18 object-contain'
       />
     </div>
   </div>

@@ -96,34 +96,7 @@ function Projects() {
         }
       </div>
 
-      {!showAll && (
-        <motion.div variants={childVariant}>
-          <Button
-            variant={'hidden'}
-            asChild
-            className='flex items-center gap-1 w-max text-sm mx-auto my-8'
-            onClick={() => setShowAll(true)}
-          >
-            <span>
-              See More <IconChevronDown size={16} />
-            </span>
-          </Button>
-        </motion.div>
-      )}
-
-      {showAll && (
-        <motion.div variants={childVariant}>
-          <Button
-            variant={'hidden'}
-            asChild
-            className='flex items-center gap-1 hover:gap-2 transition-all duration-200 w-max text-sm mx-auto my-8'
-          >
-            <Link href={'https://github.com/M-SaaD-H'} target='_blank'>
-              View on GitHub <IconChevronRight size={16} />
-            </Link>
-          </Button>
-        </motion.div>
-      )}
+      
 
     </div>
   )

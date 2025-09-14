@@ -12,17 +12,16 @@ const languages: Skill[] = [
   { name: "C/C++", icon: "/skills/C.svg" },
   { name: "Python", icon: "/skills/python.svg" },
   { name: "PHP", icon: "/skills/php.svg" },
-  { name: "Java", icon: "/skills/java.svg" },
+  { name: "Java", icon: "/skills/C.svg" },
   { name: "Rust", icon: "/skills/Rust.svg" },
   { name: "Solidity", icon: "/skills/pngwing.com.svg" }
 ];
 
 const frameworks: Skill[] = [
-  { name: "Application Security", icon: "/skills/security.svg" },
+  { name: "Application Development & Security", icon: "/skills/security.svg" },
   { name: "Cloud Security", icon: "/skills/cloud-security.svg" },
   { name: "Web3 Security", icon: "/skills/ethereum.svg" },
   { name: "RF Security", icon: "/skills/rf.svg" },
-  { name: "Application Development", icon: "/skills/code.svg" },
   { name: "3D Art & Animation", icon: "/skills/dimensions.svg" },
   { name: "Graphic Design", icon: "/skills/art-studies.svg" },
 ];
@@ -73,4 +72,3 @@ const Tag = ({ tag }: { tag: Skill }) => (
 )
 
 export default Skills
-
