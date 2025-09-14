@@ -1,12 +1,10 @@
 'use client'
 
 import Card from './Card'
-import Link from 'next/link'
-import { IconBrandFramerMotion,  IconBrandNextjs, IconBrandNodejs, IconBrandTailwind, IconBrandTypescript, IconChevronDown, IconChevronRight } from '@tabler/icons-react'
+import { IconBrandFramerMotion,  IconBrandNextjs, IconBrandNodejs, IconBrandTailwind, IconBrandTypescript } from '@tabler/icons-react'
 import { motion } from 'motion/react'
-import { Button } from './ui/button'
 import { childVariant } from './ui/animation-wrapper'
-import React, { useState } from 'react'
+import React from 'react'
 
 export type Project = {
   title: string,
@@ -78,8 +76,7 @@ const projects: Project[] = [
 
 
 function Projects() {
-  const [showAll, setShowAll] = useState(false)
-  const visibleProjects = showAll ? projects : projects.slice(0, 4)
+  const visibleProjects = projects
 
   return (
     <div id='projects' className='mt-12'>

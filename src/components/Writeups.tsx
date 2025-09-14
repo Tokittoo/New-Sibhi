@@ -3,7 +3,7 @@
 import Card from './Card'
 import { motion } from 'motion/react'
 import { childVariant } from './ui/animation-wrapper'
-import React, { useState } from 'react'
+import React from 'react'
 
 export type Writeup = {
   title: string,
@@ -31,8 +31,7 @@ const writeups: Writeup[] = [
 ]
 
 function Writeups() {
-  const [showAll, setShowAll] = useState(false)
-  const visibleWriteups = showAll ? writeups : writeups.slice(0, 4)
+  const visibleWriteups = writeups
 
   return (
     <div id='writeups' className='mt-12'>
